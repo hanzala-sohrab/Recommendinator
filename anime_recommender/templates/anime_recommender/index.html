@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime - Recommendinator</title>
+</head>
+<body>
+    Welcome mahashay, this is my new project : Anime - Recommendinator.
+    <br>
+    Search for an anime and it will suggest some more animes based on your query.
+    <br>
+    <br>
+    <form method="POST">
+        {% csrf_token %}
+        <label>Anime</label>
+        <input type="text" name="name">
+        <button type="submit" name="anime_recommend">Search</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+anime.csv filter=lfs diff=lfs merge=lfs -text
+anime_recommender filter=lfs diff=lfs merge=lfs -text
+create_db.py filter=lfs diff=lfs merge=lfs -text
+db.sqlite3 filter=lfs diff=lfs merge=lfs -text
+__pycache__ filter=lfs diff=lfs merge=lfs -text
+rating.csv filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+recommender.py filter=lfs diff=lfs merge=lfs -text
+Recommending[[:space:]]Anime[[:space:]]With[[:space:]]K-Nearest[[:space:]]Neighbor.ipynb filter=lfs diff=lfs merge=lfs -text
+Anime_Recommendinator filter=lfs diff=lfs merge=lfs -text
+manage.py filter=lfs diff=lfs merge=lfs -text

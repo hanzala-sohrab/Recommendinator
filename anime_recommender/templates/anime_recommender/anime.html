@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime - Recommendinator</title>
+</head>
+<body>
+    <a href="{% url 'index' %}">Home</a>
+    <br>
+    Viewers who watched "{{anime}}" also watched
+    <br>
+    {% for an in suggestions %}
+        <ul>
+            <li>{{an}}</li>
+        </ul>
+    {% endfor %}
+</body>
+</html>
