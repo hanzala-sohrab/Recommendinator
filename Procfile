@@ -1,0 +1,1 @@
+web: gunicorn Anime_Recommendinator.wsgi --log-file -
